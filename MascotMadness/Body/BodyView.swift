@@ -5,7 +5,21 @@ var torso: some BodyPart {
         ZStack {
             Circle()
                 .frame(width: 200, height: 200)
-                .foregroundStyle(.green)
+                .foregroundStyle(.white)
+            
+            Circle() .stroke(Color.red, lineWidth: 4)
+                .frame(width: 200, height: 200)
+                
+            
+            
+            Image("ND")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
+                .offset(x:-5,y:0)
+            
+            
+            
         }
     }
 }
